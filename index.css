@@ -1,0 +1,56 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url('images/htmlbg.jpg');
+	background-repeat: repeat-y;
+	max-width: 100%;
+}
+
+/* Custom sidebar styles */
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #5E4840;
+}
+
+#landing {
+	background-image: url('images/dashboard.jpg');
+}
+
+#contact {
+	background-color: #CB9F79;
+}
+
+
+.nav-item-hover .nav-link{
+	box-shadow: inset 0 0 0 0 #CB9F79;
+	margin: 0.25rem;
+	padding: 0.25rem;
+	transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+	cursor: pointer;
+	color: white;
+	border-radius: 5px;
+  }
+
+
+.nav-item-hover:hover .nav-link:hover{
+	box-shadow: inset 200px 0 0 0 #CB9F79;
+	color: black;
+}
+
+.btn {
+	background-color: #5E4840;
+}
+
+.projects-image {
+	height: 300px;
+}
+
+.socials {
+	cursor: pointer;
+}
